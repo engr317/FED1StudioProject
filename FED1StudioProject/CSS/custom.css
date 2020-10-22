@@ -1,4 +1,6 @@
-﻿body {
+﻿/*GLOBAL*/
+
+body {
     font-family:'Times New Roman', 'Merriweather', serif;
     font-size:15px;
     padding:5px;
@@ -10,6 +12,13 @@
     margin:auto;
     overflow:hidden;
 }
+p{
+   font-size:1.75em;
+}
+h2{
+    font-size:1.25em;
+}
+
 /* Header */
 header{
     background-color:#35424a;
@@ -21,7 +30,7 @@ header{
 header .hightlight{
     color:#e8491d;
     font-weight:bold;
-    font-family:'Lucida Handwriting', 'Times New Roman';
+    font-family:'Lucida Handwriting', 'Times New Roman', Arial; 
 }
 header img{
        height:150px;
@@ -41,6 +50,7 @@ header p{
     margin:0;
 }
 
+
 /*Navigation*/
 nav a{
     color: black;
@@ -55,8 +65,9 @@ nav li {
     padding: 0 20px 10px 20px;
     
 }
-nav li a:focus {
-    
+nav li a:focus a:hover a:active {
+        color: black;
+        background-color: #e8491d;
 }
 nav ul {
     border-bottom: #e8491d 3px solid;
@@ -68,24 +79,39 @@ nav ul {
 .choose{
     text-align:center;
     font-size:3em;
+    margin-top:50px;
 }
 
 /*Contact Page*/
 #ipad{
    height:300px;
-   width:auto;
-   float:left;
-   clear:both;
+   width:auto;   
    margin-right:15px;
-   
+   margin-bottom:20px;
+   float:left;
 }
-#about{
-    text-decoration:underline solid black;
+#about {
+    text-decoration: underline solid black;
 }
-img #laptop{
+#laptop{
     float:left;
     width:50%;
+    height:auto;
+    margin-bottom:20px;
+    padding-right:15px;
 }
+#desk{
+    float:right;
+    width:50%;
+    height:auto;
+    margin: 20px 0 0 10px;
+}
+ h1#deskTitle{
+    text-align:left;
+    margin-top:100px;
+}
+
+
 #contact_us {
     font-size:1.5em;
     text-align: center;
@@ -100,10 +126,16 @@ img #laptop{
   font-family:'Lucida Handwriting', 'Times New Roman';
   text-decoration:underline;
 }
+.services{
+    margin-top:100px;
+}
 
 footer .services{
     text-align:center;
 }
 footer nav{
     text-align:center;
+}
+.clear{
+    clear:both;
 }
