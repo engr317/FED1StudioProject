@@ -69,6 +69,10 @@
   <ItemGroup>
     <Content Include="Contact.html" />
     <Content Include="CSS\custom.css" />
+    <Content Include="images\ipad.jpg" />
+    <Content Include="images\laptop.jpg" />
+    <Content Include="images\placeholder.jpg" />
+    <Content Include="images\schooldesk.jpg" />
     <Content Include="Team.html" />
     <Content Include="Classes.html" />
     <Content Include="index.html" />
@@ -88,7 +92,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="colors\" />
-    <Folder Include="images\" />
     <Folder Include="scripts\" />
   </ItemGroup>
   <PropertyGroup>
