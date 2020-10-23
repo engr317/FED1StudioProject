@@ -11,9 +11,12 @@ body {
     padding-left:20px;
     margin:auto;
     overflow:hidden;
+    
 }
+
 p{
    font-size:1.75em;
+   text-align:justify;
 }
 h2{
     font-size:1.25em;
@@ -49,6 +52,18 @@ header p{
     padding-top:0;
     margin:0;
 }
+.socialMedia {
+    text-align: right;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: floralwhite;
+}
 
 
 /*Navigation*/
@@ -65,7 +80,7 @@ nav li {
     padding: 0 20px 10px 20px;
     
 }
-nav li a:focus a:hover a:active {
+nav a:focus a:hover a:active {
         color: black;
         background-color: #e8491d;
 }
@@ -82,7 +97,7 @@ nav ul {
     margin-top:50px;
 }
 
-/*Contact Page*/
+
 #ipad{
    height:300px;
    width:auto;   
@@ -108,7 +123,7 @@ nav ul {
 }
  h1#deskTitle{
     text-align:left;
-    margin-top:100px;
+    margin-top:50px;
 }
 
 
@@ -138,4 +153,48 @@ footer nav{
 }
 .clear{
     clear:both;
+}
+#boxes{
+    margin-top:20px;
+}
+.box{
+    float:left;
+width:30%;
+text-align:center;
+}
+.box img{
+    height:400px;
+    width:300px;
+}
+.box p{
+    text-align:center;
+}
+.classList h1 {
+    text-align:center;
+}
+.center{
+    margin-left:auto;
+    margin-right:auto;
+}
+th {
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#e8491d;
+}
+table{
+    width:70%;
+    height:50px;
+}
+table, th, td {
+    border: 1px solid black;
+}
+td{
+    height:50px;
+    vertical-align:middle;
+}
+th, td{
+    text-align:center;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
 }
