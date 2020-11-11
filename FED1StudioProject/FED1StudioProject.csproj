@@ -69,6 +69,8 @@
   <ItemGroup>
     <Content Include="Contact.html" />
     <Content Include="CSS\custom.css" />
+    <Content Include="scripts\html5shiv-printshiv.js" />
+    <Content Include="scripts\html5shiv.js" />
     <Content Include="images\ayo-ogunseinde-sibVwORYqs0-unsplash.jpg" />
     <Content Include="images\brooke-cagle-Ss3wTFJPAVY-unsplash.jpg" />
     <Content Include="images\damir-kopezhanov-2N3vT74e4HQ-unsplash.jpg" />
@@ -105,7 +107,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="colors\" />
-    <Folder Include="scripts\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

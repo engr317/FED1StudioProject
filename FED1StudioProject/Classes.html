@@ -10,7 +10,7 @@
     <!--add external stylesheet-->
     <link href="CSS/custom.css" rel="stylesheet">
     <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">        
     <title>Classes</title>
 </head>
 
@@ -41,22 +41,22 @@
             <li><a href="Contact.html">Contact</a></li>
         </ul>
     </nav>
-    <main>
+    <main id="bckgroundImage" style="background-image: url(images/Fantastic_Logo2_20x20.png)">
         <h1 style="text-align:center;font-size:4em;">Class Subjects</h1>
         <section id="boxes">
             <div class="container">
                 <div class="box">
-                    <img src="images/wicker-baskets-1191957_640.jpg" />
+                    <a href="#weaving"><img src="images/wicker-baskets-1191957_640.jpg" /></a>
                     <h2>Underwater Basket Weaving</h2>
                     <p>Some random text about the class</p>
                 </div>
                 <div class="box">
-                    <img src="images/damir-kopezhanov-2N3vT74e4HQ-unsplash.jpg" />
+                    <a href="#messenger"><img src="images/damir-kopezhanov-2N3vT74e4HQ-unsplash.jpg" /></a>
                     <h2>Bicycle Messenger</h2>
                     <p>Some random text about the class</p>
                 </div>
                 <div class="box">
-                    <img src="images/jason-yuen-hVWdANvtFmc-unsplash.jpg" />
+                    <a href="coffee"><img src="images/jason-yuen-hVWdANvtFmc-unsplash.jpg" /></a>
                     <h2>Coffee Maker</h2>
                     <p>Some random text about the class</p>
                 </div>
@@ -66,25 +66,24 @@
         <section id="boxes">
             <div class="container">
                 <div class="box">
-                    <img src="images/lisanto--JZSWqyYfx4-unsplash.jpg" />
+                    <a href="#rider"><img src="images/lisanto--JZSWqyYfx4-unsplash.jpg" /></a>
                     <h2>City Bus Rider</h2>
                     <p>Some random text about the class</p>
                 </div>
                 <div class="box">
-                    <img src="images/toa-heftiba-FgsAtARe_54-unsplash.jpg" />
+                    <a href="traveler"><img src="images/toa-heftiba-FgsAtARe_54-unsplash.jpg" /></a>
                     <h2>SideWalk Traveler</h2>
                     <p>Some random text about the class</p>
                 </div>
                 <div class="box">
-                    <img src="images/xavier-l-3jmL8zp099Q-unsplash.jpg" />
+                    <a href="counter"><img src="images/xavier-l-3jmL8zp099Q-unsplash.jpg" /></a>
                     <h2>People Counter</h2>
                     <p>Some random text about the class</p>
                 </div>
-
             </div>
         </section>
         <section class="classList">
-            <h1>Basket Weaving - Class List</h1>
+            <h1 id="weaving">Basket Weaving - Class List</h1>
             <table class="center">
                 <tr>
                     <th>#</th>
@@ -119,7 +118,7 @@
             </table>
             <br />
             <br />
-            <h1>Bicycle Messenger - Class List</h1>
+            <h1 id="messenger">Bicycle Messenger - Class List</h1>
             <table class="center">
                 <tr>
                     <th>#</th>
@@ -154,7 +153,7 @@
             </table>
             <br />
             <br />
-            <h1>Coffee Maker - Class List</h1>
+            <h1 id="coffee">Coffee Maker - Class List</h1>
             <table class="center">
 
                 <tr>
@@ -191,7 +190,7 @@
             </table>
             <br />
             <br />
-            <h1>City Bus Rider - Class List</h1>
+            <h1 id="rider">City Bus Rider - Class List</h1>
             <table class="center">
 
                 <tr>
@@ -228,7 +227,7 @@
             </table>
             <br />
             <br />
-            <h1>SideWalk Traveler - Class List</h1>
+            <h1 id="traveler">SideWalk Traveler - Class List</h1>
             <table class="center">
 
                 <tr>
@@ -265,7 +264,7 @@
             </table>
             <br />
             <br />
-            <h1>People Counter - Class List</h1>
+            <h1 id="counter">People Counter - Class List</h1>
             <table class="center">
 
                 <tr>
@@ -313,5 +312,11 @@
             </ul>
         </nav>
     </footer>
+
+    <!-- HTML5 Shiv-->
+    <script src="scripts/html5shiv.js"></script>
+
+
 </body>
+
 </html>
