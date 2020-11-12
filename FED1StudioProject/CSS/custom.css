@@ -5,7 +5,6 @@ body {
     font-size: 15px;
     padding: 5px;
     margin: 5px;
-    
 }
 
 .container {
@@ -89,32 +88,34 @@ a {
     text-decoration: none;
     text-transform: uppercase;
 }
-a:hover, a:active, a:focus {
-    color: floralwhite;
-    background-color: #e8491d;
-}
 
-nav a:hover, a:active, a:focus {
-    color: floralwhite;
-    background-color: #e8491d;
-}
+    a:hover, a:active, a:focus {
+        color: floralwhite;
+        background-color: #e8491d;
+    }
+
+    nav a:hover, a:active, a:focus {
+        color: floralwhite;
+        background-color: #e8491d;
+    }
+
 nav ul {
     background-color: teal;
     border-top: 5px, solid, black;
     border-bottom: 5px, solid, black;
-    padding:0px;
-    margin-top:0;
+    padding: 0px;
+    margin-top: 0;
 }
-nav ul li {
-    display: inline-block;
-     
-    
-   
-}
-nav ul li a {
-    padding: 20px;
-    display: block;
-}
+
+    nav ul li {
+        display: inline-block;
+    }
+
+        nav ul li a {
+            padding: 20px;
+            display: block;
+        }
+
 .active {
     color: floralwhite;
     background-color: #e8491d;
@@ -204,17 +205,20 @@ footer {
     text-align: center;
 }
 
+
     .box img {
-        height: 400px;
-        width: 300px;
+        height: 235px;
+        width: 180px;
     }
+
+        .box img:hover {
+            border: 3px solid black;
+        }
 
     .box p {
         text-align: center;
     }
-    .box img:hover {
-        border: 3px solid black;
-    }
+
 
 .classList h1 {
     text-align: center;
@@ -254,12 +258,11 @@ tr:nth-child(even) {
 }
 
 main {
-    background: url("../images/favicon-32x32.png");
+    background-image: url('../images/Fantastic_Logo2_20x20.png');
     background-repeat: no-repeat;
-    background-position:center center;
-    background-attachment:fixed;
+    background-position: center center;
+    background-attachment: fixed;
     background-size: 30%;
-    
 }
 /* Team Page */
 #titleLeader {
@@ -276,19 +279,19 @@ div.leaders p {
 #firstPerson {
     height: 400px;
     width: 275px;
-    float:left;
+    float: left;
 }
 
 #secondPerson {
     height: 400px;
     width: 300px;
-    float:left;
+    float: left;
 }
 
 #thirdPerson {
     height: 400px;
     width: 300px;
-    float:left;
+    float: left;
 }
 
 #Leadership {
@@ -308,27 +311,33 @@ aside {
     border-color: black;
     height: 2800px;
 }
-aside h2 {
+
+    aside h2 {
         font-size: 3.25em;
         font-weight: bold;
         text-align: center;
         margin-top: 2px
     }
 
-aside li {
+    aside li {
         text-align: left;
         font-size: medium;
         padding: 15px;
     }
-section p{
-    margin-bottom:300px;
+
+section p {
+    margin-bottom: 300px;
 }
+
 article img {
-    margin-right:10px;
-}
-div.description h2{
-    font-size:2em;
-    text-transform:uppercase;
+    margin-right: 10px;
 }
 
+div.description h2 {
+    font-size: 2em;
+    text-transform: uppercase;
+}
 
+#contact_us {
+    margin-top: 0;
+}
